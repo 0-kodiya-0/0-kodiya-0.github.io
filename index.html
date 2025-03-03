@@ -1,8 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional CV/Resume of Sanithu Nimadith Jayakody - Computer Science Student and Web Developer specializing in creating dynamic and user-friendly websites.">
+    <meta name="keywords"
+        content="Sanithu Jayakody, CV, Resume, Computer Science, Web Developer, Portfolio, Next.js, Angular.js, Express, Spring Boot, MongoDB, MySQL">
+    <meta name="author" content="Sanithu Nimadith Jayakody">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Sanithu Nimadith Jayakody | CV">
+    <meta property="og:description"
+        content="Professional CV of Sanithu Nimadith Jayakody - Computer Science Student and Web Developer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/yourrepositoryname">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./icons/logo_black.svg">
+
     <title>Sanithu Nimadith Jayakody | CV</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,27 +28,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
+
 <body>
     <div class="container">
-        <header>
-            <div class="profile-container">
-                <div class="profile-info">
-                    <h1>Sanithu Nimadith Jayakody</h1>
-                    <h2>Computer Science Student</h2>
-                    <div class="download-btn">
-                        <a href="./CV.pdf" download="Sanithu-Nimadith-Jayakody-CV.pdf">
-                            <i data-feather="download"></i> Download CV
+        <nav class="navbar">
+            <div class="navbar-content">
+                <div class="navbar-logo">
+                    <img src="./icons/logo_nameonly_white.svg" alt="Sanithu Jayakody Logo" class="nav-logo">
+                </div>
+                <div class="navbar-actions">
+                    <button id="download-toggle" class="mobile-toggle" aria-label="Toggle download options">
+                        <i data-feather="download"></i>
+                    </button>
+                    <div id="download-container" class="download-container">
+                        <a href="./CV.pdf" download="Sanithu-Nimadith-Jayakody-CV.pdf"
+                            class="download-link">
+                            <i data-feather="file-text"></i> Download CV
+                        </a>
+                        <a href="" aria-disabled="true" download="Sanithu-Nimadith-Jayakody-Resume.pdf"
+                            class="download-link">
+                            <i data-feather="file"></i> Download Resume
                         </a>
                     </div>
                 </div>
             </div>
-        </header>
+            <div class="profile-container">
+                <div class="profile-info">
+                    <h1>Sanithu Nimadith Jayakody</h1>
+                    <h2>Computer Science Student</h2>
+                </div>
+            </div>
+        </nav>
 
         <main>
             <section class="about">
                 <h3><i data-feather="user"></i> Profile</h3>
                 <p>
-                    An expert web developer with a passion for creating dynamic and user-friendly websites, I am specialized in crafting seamless digital experiences. My expertise spans a wide range of technologies, enabling me to develop innovative solutions. With a strong foundation in problem-solving, excellent communication skills, and a keen eye for design, I am committed to delivering high-quality projects that exceed expectations. My creativity, combined with my technical knowledge, allows me to bring unique and effective ideas to life on the web.
+                    An expert web developer with a passion for creating dynamic and user-friendly websites, I am
+                    specialized in crafting seamless digital experiences. My expertise spans a wide range of
+                    technologies, enabling me to develop innovative solutions. With a strong foundation in
+                    problem-solving, excellent communication skills, and a keen eye for design, I am committed to
+                    delivering high-quality projects that exceed expectations. My creativity, combined with my technical
+                    knowledge, allows me to bring unique and effective ideas to life on the web.
                 </p>
             </section>
 
@@ -121,7 +160,8 @@
                     <div class="project-card">
                         <h4>Real time ticketing system</h4>
                         <p class="project-date">2024</p>
-                        <p>A real time ticketing system design with Spring boot as the backend and Angular.js as the front end</p>
+                        <p>A real time ticketing system design with Spring boot as the backend and Angular.js as the
+                            front end</p>
                     </div>
                     <div class="project-card">
                         <h4>SDGP Group Project</h4>
@@ -174,7 +214,8 @@
             <section class="contact">
                 <h3><i data-feather="phone"></i> Contact</h3>
                 <div class="contact-info">
-                    <p><i data-feather="mail"></i> <a href="mailto:sanithujayafiverr@gmail.com">sanithujayafiverr@gmail.com</a></p>
+                    <p><i data-feather="mail"></i> <a
+                            href="mailto:sanithujayafiverr@gmail.com">sanithujayafiverr@gmail.com</a></p>
                     <p><i data-feather="phone"></i> <a href="tel:+94722616461">072 261 6461</a></p>
                 </div>
             </section>
@@ -182,16 +223,75 @@
             <section class="social">
                 <h3><i data-feather="link"></i> Social</h3>
                 <div class="social-links">
-                    <a href="https://github.com/0-kodiya-0" target="_blank"><i data-feather="github"></i> GitHub</a>
-                    <a href="https://www.linkedin.com/in/sanithu-jayakody-a541142ab" target="_blank"><i data-feather="linkedin"></i> LinkedIn</a>
-                    <a href="https://stackoverflow.com/users/20159737" target="_blank"><i data-feather="layers"></i> Stack Overflow</a>
+                    <a href="https://github.com/0-kodiya-0" target="_blank" rel="noopener noreferrer"><i
+                            data-feather="github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/sanithu-jayakody-a541142ab" target="_blank"
+                        rel="noopener noreferrer"><i data-feather="linkedin"></i> LinkedIn</a>
+                    <a href="https://stackoverflow.com/users/20159737" target="_blank" rel="noopener noreferrer"><i
+                            data-feather="layers"></i> Stack Overflow</a>
                 </div>
             </section>
         </main>
+
+        <footer>
+            <div class="footer-content">
+                <img src="./icons/logo_black.svg" alt="Sanithu Jayakody Logo" class="footer-logo">
+                <p>&copy; 2025 Sanithu Nimadith Jayakody. All rights reserved.</p>
+            </div>
+        </footer>
     </div>
 
     <script>
+        // Initialize Feather Icons
         feather.replace();
+
+        // Mobile download toggle functionality
+        document.addEventListener('DOMContentLoaded', function () {
+            const downloadToggle = document.getElementById('download-toggle');
+            const downloadContainer = document.getElementById('download-container');
+
+            // Set initial state based on screen size
+            if (window.innerWidth < 768) {
+                downloadContainer.classList.add('collapsed');
+            }
+
+            downloadToggle.addEventListener('click', function () {
+                downloadContainer.classList.toggle('collapsed');
+
+                // Change icon based on state
+                const icon = downloadContainer.classList.contains('collapsed') ? 'download' : 'x';
+                downloadToggle.querySelector('i').setAttribute('data-feather', icon);
+
+                // Re-initialize feather icons after changing the icon
+                feather.replace();
+            });
+
+            // Handle resize events
+            window.addEventListener('resize', function () {
+                if (window.innerWidth >= 768) {
+                    downloadContainer.classList.remove('collapsed');
+                } else {
+                    if (!downloadContainer.classList.contains('collapsed')) {
+                        downloadContainer.classList.add('collapsed');
+                        downloadToggle.querySelector('i').setAttribute('data-feather', 'download');
+                        feather.replace();
+                    }
+                }
+            });
+
+            // Close download menu when clicking outside
+            document.addEventListener('click', function (event) {
+                const isClickInside = downloadToggle.contains(event.target) ||
+                    downloadContainer.contains(event.target);
+
+                if (!isClickInside && window.innerWidth < 768) {
+                    downloadContainer.classList.add('collapsed');
+                    downloadToggle.querySelector('i').setAttribute('data-feather', 'download');
+                    feather.replace();
+                }
+            });
+        });
     </script>
 </body>
+
 </html>
